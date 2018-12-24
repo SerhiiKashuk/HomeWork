@@ -28,13 +28,19 @@ public class Square {
 	}
 
 	public double getPerimeter(int side) {
-		perimeter = 4 * side;
 		return perimeter;
 	}
 
 	public double getSquare(int side) {
-		square = Math.pow(side, 2);
 		return square;
+	}
+
+	public void setPerimeter(int side) {
+		this.perimeter = 4 * side;
+	}
+
+	public void setSquare(int side) {
+		this.square = Math.pow(side, 2);
 	}
 
 	public void getInfo() {

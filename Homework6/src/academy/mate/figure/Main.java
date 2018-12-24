@@ -18,28 +18,29 @@ public class Main {
 				case 1:
 					System.out.println("You selected Circle. Enter radius : ");
 					int r = in.nextInt();
-					circle.getPerimeter(r);
-					circle.getSquare(r);
+					circle.setPerimeter(r);
+					circle.setSquare(r);
 					circle.getInfo();
 					break;
 
 				case 2:
 					System.out.println("You selected Square. Enter length of side : ");
 					int s = in.nextInt();
-					square.getPerimeter(s);
-					square.getSquare(s);
+					square.setPerimeter(s);
+					square.setSquare(s);
 					square.getInfo();
 					break;
 
 				case 3:
 					System.out.println("You selected Triangle. Enter length of side : ");
 					int t = in.nextInt();
-					triangle.getPerimeter(t);
-					triangle.getSquare(t);
+					triangle.setPerimeter(t);
+					triangle.setSquare(t);
 					triangle.getInfo();
 					break;
 
 				case 0:
+					System.out.println("End");
 					in.close();
 					break L;
 				}

@@ -28,13 +28,19 @@ public class Triangle {
 	}
 
 	public double getPerimeter(int side) {
-		perimeter = 3 * side;
 		return perimeter;
 	}
 
 	public double getSquare(int side) {
-		square = Math.pow(side, 2) * Math.sqrt(3) / 4;
 		return square;
+	}
+
+	public void setPerimeter(int side) {
+		this.perimeter = 3 * side;
+	}
+
+	public void setSquare(int side) {
+		this.square = Math.pow(side, 2) * Math.sqrt(3) / 4;
 	}
 
 	public void getInfo() {

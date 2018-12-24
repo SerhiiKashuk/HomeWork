@@ -1,6 +1,5 @@
 package academy.mate.figure;
 
-
 public class Circle {
 	private String name;
 	private String color;
@@ -29,18 +28,24 @@ public class Circle {
 	}
 
 	public double getPerimeter(int radius) {
-		perimeter = 2 * 3.14 * radius;
 		return perimeter;
 	}
 
 	public double getSquare(int radius) {
-		square = 3.14 * Math.pow(radius, 2);
 		return square;
 	}
 
+	public void setPerimeter(int radius) {
+		this.perimeter = 2 * 3.14 * radius;
+	}
+
+	public void setSquare(int radius) {
+		this.square = 3.14 * Math.pow(radius, 2);
+	}
+
 	public void getInfo() {
-		System.out
-				.println("Circle [name = " + name + ", color = " + color + ", perimeter = " + perimeter + ", square = " + square + "]");
+		System.out.println("Circle [name = " + name + ", color = " + color + ", perimeter = " + perimeter + ", square = "
+				+ square + "]" + "\n");
 	}
 
 }
