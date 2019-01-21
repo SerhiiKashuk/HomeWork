@@ -1,2 +1,0 @@
-qwerty
-git remote add origin https://github.com/SerhiiKashuk/HomeWork.git
