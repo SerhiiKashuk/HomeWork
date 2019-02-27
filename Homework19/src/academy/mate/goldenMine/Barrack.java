@@ -1,15 +1,15 @@
 package academy.mate.goldenMine;
 
-public class Barrack implements Runnable {
+public class Barrack /*implements Runnable*/ {
 	GoldMine gm;
 	int i = 4;
 
 	public Barrack(GoldMine gm) {
 		this.gm = gm;
-		new Thread(this).start();
+	//	new Thread(this).start();
 	}
 
-	@Override
+	//@Override
 	public void run() {
 	
 		try {

@@ -9,7 +9,7 @@ public class MainThread {
 		new Miner(gm, "Miner_1", 0);
 		new Miner(gm, "Miner_2", 0);
 		new Miner(gm, "Miner_3", 0);
-		new Barrack(gm);
+		new Barrack(gm).run();;
 	}
 
 }

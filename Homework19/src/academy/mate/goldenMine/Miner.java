@@ -12,7 +12,6 @@ public class Miner implements Runnable {
 		this.name = name;
 		this.gold = gold;
 		new Thread(this).start();
-
 	}
 
 	@Override
