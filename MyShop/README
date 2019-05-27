@@ -1,0 +1,7 @@
+Для запуска проекта:
+-копирую файл MyShop.war;
+-добавляю в apache tomcat(C:/tomcat/webapps  у меня локально находиться)
+-запускаю tomcat
+- в браузере http://localhost:8080/MyShop/
+
+
