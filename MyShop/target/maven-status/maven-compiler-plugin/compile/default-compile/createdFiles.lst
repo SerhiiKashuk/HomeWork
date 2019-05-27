@@ -1,0 +1,9 @@
+com\shop\config\SpringConfig.class
+com\shop\proc\ProductDaoImpl.class
+com\shop\proc\ProductService.class
+com\shop\config\WebConfig.class
+com\shop\proc\Product.class
+com\shop\config\SpringWebAppInitializer.class
+com\shop\proc\ProductDao.class
+com\shop\controller\ProductController.class
+com\shop\proc\ProductServiceImpl.class
